@@ -17,7 +17,8 @@ const Github = () => {
   return (
     <div className='flex p-10 bg-slate-500 text-center text-xl bold'>
       <img src= {data.avatar_url} alt="" width={300}/>
-      <span className='flex p-10 justify-center text-center'>Github Followers : {data.id}</span>
+      <span className='flex p-10 justify-center text-center'>Github ID : {data.id}</span>
+      <span className='flex p-10 justify-center text-center'>Github followers : {data.followers}</span>
     </div>
   )
 }
